@@ -1,0 +1,64 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-light {
+  background-color: #f9f6f1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 45px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cart {
+  background-image: url("../img/basket.svg");
+  padding-left: 45px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.cart-count {
+  background-image: url("../img/cart-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 24px;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
