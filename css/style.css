@@ -2,8 +2,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .page-light {
   background-color: #f9f6f1;
+}
+
+.page-dark {
+  background-color: #212121;
 }
 
 .wrapper {
@@ -23,7 +32,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 126px;
+  padding-bottom: 26px;
   padding-top: 46px;
 }
 
@@ -75,6 +84,10 @@ body {
   padding: 18px 28px;
 }
 
+.btn-xs {
+  padding: 8px 28px;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,5 +136,60 @@ body {
   font-weight: 700;
   color: #d84033;
   margin-top: 17px;
+}
+
+.notice-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.notice-description {
+  color: #fff;
+  text-align: center;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding: 50px 0;
+  background-size: 190px 171px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.collection-man {
+  background-image: url("../img/man.png");
+}
+
+.collection-woman {
+  background-image: url("../img/woman.png");
+}
+
+.collection-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.collection-description {
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
