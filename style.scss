@@ -13,18 +13,22 @@ body {
 .wrapper {
   max-width: 1110px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 126px;
+  padding-top: 46px;
 }
 .nav {
   display: flex;
   list-style: none;
   padding-left: 0;
   &-item {
-    margin-left: 45px;
+    margin-right: 45px;
   }
   &-link {
     color: $dark;
@@ -49,5 +53,51 @@ body {
     font-weight: 700;
     padding: 10px 24px;
     display: block;
+  }
+}
+.btn {
+  background-color: $accent;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  &-item {
+    flex: 0 0 50%;
+  }
+  .sale {
+    &-description {
+      font-size: 30px;
+      letter-spacing: -0.6px;
+    }
+    &-title {
+      font-size: 55px;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
+  }
+}
+.box {
+  position: relative;
+  &-price {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 35px;
+    &-old {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    &-new {
+      font-size: 42px;
+      font-weight: 700;
+      color: #d84033;
+      margin-top: 17px;
+    }
   }
 }
