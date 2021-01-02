@@ -75,6 +75,11 @@ body {
   display: block;
 }
 
+.title-h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
 .btn {
   background-color: #d7b399;
   color: #fff;
@@ -86,6 +91,17 @@ body {
 
 .btn-xs {
   padding: 8px 28px;
+}
+
+.btn-center {
+  display: block;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.btn-center span {
+  margin-right: 15px;
 }
 
 .main {
@@ -191,5 +207,97 @@ body {
 .collection-description {
   font-size: 16px;
   margin-bottom: 30px;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 24%;
+          flex: 0 0 24%;
+  position: relative;
+}
+
+.product-item:before, .product-item:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-item:before {
+  background-image: url("../img/topTab.svg");
+}
+
+.product-item:after {
+  background-image: url("../img/bottomTab.svg");
+}
+
+.product-title {
+  font-weight: 600;
+}
+
+.product-price {
+  color: #d7b399;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+}
+
+.footer-logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.footer-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-list-title {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-link {
+  color: #cbcfd4;
+  text-decoration: none;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
